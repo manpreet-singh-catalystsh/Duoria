@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.working-container {
+  width: 100vw;
+  padding: 0 $margin;
+  margin: 60px auto;
+  text-align: center;
+  min-height: 500px;
+}
+
+.working-content {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  max-width: 1015px;
+  margin: 10px auto;
+}
+
+.note {
+  color: #b0b0b0;
+}
+
+@media only screen and (max-width: 999px) {
+  .working-container {
+    padding: 0 4px;
+  }
+}

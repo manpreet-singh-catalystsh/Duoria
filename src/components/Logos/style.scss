@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.header-logos {
+  width: calc(100vw - 165 * 2px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //height: 75px;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #cacada;
+  flex-wrap: wrap;
+}
+.logo-img {
+  height: 60px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 999px) {
+  .header-logos {
+    width: calc(100vw - 8px);
+  }
+}

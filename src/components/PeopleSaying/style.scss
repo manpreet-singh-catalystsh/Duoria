@@ -1,0 +1,23 @@
+.peoplesaying-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #0b0d17;
+  align-items: center;
+  gap: 20px;
+
+  .quote-icon {
+    margin-top: 46px;
+    height: 49px;
+    width: 57.75px;
+    opacity: 0.5;
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+.carousal-container {
+  width: 100%;
+}

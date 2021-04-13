@@ -1,0 +1,23 @@
+.cardCarousel-slider {
+  .slick-list {
+    overflow: visible;
+
+    .slick-track {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+.content-container {
+  margin-right: 40px;
+  max-width: calc(100%-60px);
+}
+
+.evenImage {
+  padding-top: 25px;
+}
+
+.oddImage {
+  padding-bottom: 25px;
+}

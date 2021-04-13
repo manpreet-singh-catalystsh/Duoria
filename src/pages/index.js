@@ -1,29 +1,27 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+//import { StaticImage } from "gatsby-plugin-image"
+import Header from "../components/Header"
+import Logos from "../components/Logos"
+import Working from "../components/Working"
+import Merchants from "../components/Merchants"
+import WhySave from "../components/WhySave"
+import PeopleSaying from "../components/PeopleSaying"
+import Faq from "../components/Faq/index"
+import Cta from "../components/Cta/index"
+import Footer from "../components/Footer/index"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
+  <div>
+    <Header />
+    <Logos />
+    <Working />
+    <Merchants />
+    <WhySave />
+    <PeopleSaying />
+    <Faq />
+    <Cta />
+    <Footer />
+  </div>
 )
 
 export default IndexPage

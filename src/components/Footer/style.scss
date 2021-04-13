@@ -1,0 +1,33 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0d17;
+  height: 150px;
+  width: 100vw;
+}
+
+.footer-content {
+  margin-top: 32px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-right: 20px;
+}
+
+.footer-icons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
