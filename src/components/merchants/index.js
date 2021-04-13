@@ -1,6 +1,6 @@
 import * as React from "react"
 import "./style.scss"
-import { Button } from "../button/button"
+import { Button } from "../button/index"
 import "../../styles/index.scss"
 
 import I1 from "../../images/Merchants/I1.png"
