@@ -67,3 +67,16 @@
     height: auto;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .internal-text {
+    h1 {
+      color: #18191f;
+    }
+    width: 100%;
+  }
+
+  .saveupto-container {
+    padding: 300px 0 0 20px;
+  }
+}

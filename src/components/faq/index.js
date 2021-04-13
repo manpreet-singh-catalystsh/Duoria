@@ -23,7 +23,6 @@ const Faq = () => {
   return (
     <div className="faq-container">
       <h1>FAQ</h1>
-
       {Data.map((element, index) => {
         return (
           <div

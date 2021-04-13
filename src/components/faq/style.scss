@@ -13,12 +13,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-bottom: 0.5px solid #888888;
+  border-bottom: 0.5px solid #cacada;
   transition: height 2s ease-in-out;
 }
 
 .question-container {
-  margin-bottom: 0.5px solid #888888;
   display: flex;
   flex-direction: row;
   align-items: space-between;
@@ -39,7 +38,7 @@
 .answer-container {
   text-align: left;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 26px;
   height: 0;
   overflow: hidden;
