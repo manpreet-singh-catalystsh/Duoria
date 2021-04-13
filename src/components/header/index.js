@@ -2,8 +2,8 @@ import * as React from "react"
 import "./style.scss"
 import "../../styles/index.scss"
 import Group from "../../images/Group.png"
-import { Button2 } from "../Button/button"
-import Navigation from "../NavigationBar/index"
+import { Button2 } from "../button/button"
+import Navigation from "../navigationBar/index"
 
 const Header = () => {
   return (

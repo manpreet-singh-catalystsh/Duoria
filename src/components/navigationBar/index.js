@@ -1,7 +1,7 @@
 import * as React from "react"
 import "./style.scss"
 import { navLinks } from "./data"
-import { Button } from "../Button/button"
+import { Button } from "../button/button"
 import "../../styles/index.scss"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import Logo from "../../images/Logo.png"

@@ -2,7 +2,7 @@ import * as React from "react"
 import "./style.scss"
 import "../../styles/index.scss"
 import Logo from "../../images/Logo.png"
-import { Button2 } from "../Button/button.js"
+import { Button2 } from "../button/button.js"
 
 const Cta = () => {
   return (

@@ -1,14 +1,14 @@
 import * as React from "react"
 //import { StaticImage } from "gatsby-plugin-image"
-import Header from "../components/Header"
-import Logos from "../components/Logos"
-import Working from "../components/Working"
-import Merchants from "../components/Merchants"
-import WhySave from "../components/WhySave"
-import PeopleSaying from "../components/PeopleSaying"
-import Faq from "../components/Faq/index"
-import Cta from "../components/Cta/index"
-import Footer from "../components/Footer/index"
+import Header from "../components/header"
+import Logos from "../components/logos"
+import Working from "../components/working"
+import Merchants from "../components/merchants"
+import WhySave from "../components/whySave"
+import PeopleSaying from "../components/peopleSaying"
+import Faq from "../components/faq/index"
+import Cta from "../components/cta/index"
+import Footer from "../components/footer/index"
 
 const IndexPage = () => (
   <div>
