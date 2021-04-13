@@ -8,7 +8,16 @@ import g2 from "../../images/PeopleSaying/g2.png"
 import g3 from "../../images/PeopleSaying/g3.png"
 import g4 from "../../images/PeopleSaying/g4.png"
 
-let data = [{ image: g3 }, { image: g3 }, { image: g2 }, { image: g4 }]
+let data = [
+  { image: g2 },
+  { image: g3 },
+  { image: g2 },
+  { image: g4 },
+  { image: g3 },
+  { image: g3 },
+  { image: g2 },
+  { image: g4 },
+]
 
 const PeopleSaying = () => {
   return (
