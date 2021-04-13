@@ -21,3 +21,11 @@
 .oddImage {
   padding-bottom: 25px;
 }
+
+@media only screen and (max-width: 480px) {
+  .evenImage,
+  .oddImage {
+    width: 100%;
+    height: auto;
+  }
+}

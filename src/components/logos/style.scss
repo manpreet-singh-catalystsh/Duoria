@@ -20,3 +20,9 @@
     width: calc(100vw - 8px);
   }
 }
+
+@media only screen and (max-width: 999px) {
+  .header-logos {
+    justify-content: center;
+  }
+}
