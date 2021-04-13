@@ -14,7 +14,7 @@ const PeopleSaying = () => {
   return (
     <div className="peoplesaying-container" id="PeopleSaying">
       <img className="quote-icon" src={b}></img>
-      <p>
+      <p className="people-saying-text">
         <h2>What People Are Saying</h2>
       </p>
       <div className="carousal-container">
