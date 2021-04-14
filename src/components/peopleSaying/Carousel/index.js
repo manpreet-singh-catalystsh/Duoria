@@ -44,7 +44,7 @@ var settings = {
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 540,
       settings: {
         slidesToShow: 1,
         centerPadding: 0,
